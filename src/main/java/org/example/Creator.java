@@ -22,7 +22,7 @@ public class Creator {
 
 
     public static List<Long[]> createAllInExpression(String field, Long[] list) {
-        // Считаем пачки
+        // Считаем пачки 234
         int batchNumber = (list.length + (IN_OPERAND_SIZE-1)) / IN_OPERAND_SIZE;
 
 List<Long[]> result = new ArrayList<>();
