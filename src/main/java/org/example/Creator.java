@@ -11,7 +11,7 @@ public class Creator {
 
     public static void main(String[] args) {
         // Generate test data
-        Long[] testData = generateTestData(2001); // Generate 2500 Long values
+        Long[] testData = generateTestData(0); // Generate 2500 Long values
 
         // Call the createAllInExpression method
         List<Long[]> result = createAllInExpression("testField", testData);
